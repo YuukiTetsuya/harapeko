@@ -1,5 +1,7 @@
 # HARAPEKO。
 
+[HARAPEKO。](https://harapeko-cafe.herokuapp.com/)
+
 HARAPEKO。はYUUKIが個人開発している老舗食堂専用レビューサイトです。
 
 
@@ -75,8 +77,10 @@ HARAPEKO。はYUUKIが個人開発している老舗食堂専用レビューサ�
       * puma(3.9.1)
 
   * DB
-    * Production
+    * Development
       * SQlite
+    * Production
+      * PostgreSQL
 
   * Test-driven development
     * Gurad-spec(Minitest)
